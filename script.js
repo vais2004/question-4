@@ -14,16 +14,16 @@ function showOutput(){
     output.innerText = input.value
 }
 function redHandler(){
-    redButton.style.backgroundColor = '${color.red}'
-    output.style.color = '${color.red}'
+    redButton.style.backgroundColor = `${color.red}`
+    output.style.color = `${color.red}`
 }
 function greenHandler(){
-    greenButton.style.backgroundColor = '${color.green}'
-    output.style.color = '${color.green}'
+    greenButton.style.backgroundColor = `${color.green}`
+    output.style.color = `${color.green}`
 }
 function blueHandler(){
-    blueButton.style.backgroundColor = '${color.blue}'
-    output.style.color = '${color.blue}'
+    blueButton.style.backgroundColor = `${color.blue}`
+    output.style.color = `${color.blue}`
 }
 showButton.addEventListener('click', showOutput)
 redButton.addEventListener('click', redHandler)
